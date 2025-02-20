@@ -1,0 +1,26 @@
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \******************************************************************/
+.collapse-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .collapse-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .collapse-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+  }
+  .collapse-content p {
+    margin: 0; 
+  }
